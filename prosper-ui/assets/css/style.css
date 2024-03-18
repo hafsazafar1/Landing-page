@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 90px 10px 90px;
+}
+
+.main-div .menu-links-div ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.main-div .menu-links-div ul li {
+    list-style-type: none;
+}
+
+.main-div .menu-links-div ul li a {
+    text-decoration: none;
+    color: #555555;
+}
+
+
+.second-section-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px 20px 200px;
+}
+
+.second-section-div .left-side-text h1 {
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.second-section-div .left-side-text p {
+    color: #555555;
+}
+
+.second-section-div .left-side-text .btn-1 {
+    background-color: #222222;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 2px;
+}
+
+
+.second-section-div .left-side-text .btn-2 {
+    border-radius: 2px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #222222;
+    border: 1px solid #222222;
+}
+
+.right-side-img img {
+    width: 200px;
+}
+
+.buttons-div {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.bottom-section-div p {
+    text-align: center;
+}
+
+.bottom-section-div .bottom-side-text1 p {
+    color: #555555;
+    margin-bottom: 5px;
+}
+
+.bottom-section-div .bottom-side-text1 h2 {
+    color: #222222;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.feature-section-div {
+    padding: 40px 80px;
+}
+
+
+.first-features-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-features-div .feature img {
+    height: 180px;
+    width: 180px;
+}
+
+.feature-section-div .feature-title h6 {
+    text-align: center;
+}
+
+.feature-section-div .feature-title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.second-features-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-features-div .feature img {
+    height: 180px;
+    width: 180px;
+}
+
+.feature {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    width: 197px;
+    text-align: center;
+}
+
+.forth-section {
+    padding: 40px 80px;
+}
+
+.forth-section-1,
+.forth-section-2,
+.forth-section-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.forth-section-1 .demand1,
+.forth-section-1 .demand2,
+.forth-section-2 .demand1,
+.forth-section-2 .demand2,
+.forth-section-3 .demand1,
+.forth-section-3 .demand2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 35px;
+    width: 787px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.forth-section-title h6 {
+    text-align: center;
+}
+
+.forth-section-title h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.how-it-works {
+    padding: 40px 80px;
+}
+
+.works {
+    display: flex;
+    gap: 20px;
+}
+
+.work1 h6,
+.work1 p,
+.work2 h6,
+.work2 p,
+.work3 h6,
+.work3 p,
+.work4 h6,
+.work4 p {
+    text-align: center;
+}
+
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.number h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+.works img{
+    margin-bottom:25px;
+}
+.upper-footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap:40px;
+    background-color: #F8FEFB;
+    padding: 40px 60px;
+    align-items: center;
+    
+}
+.button button{
+width: 140px;
+    border: 0px;
+    height: 40px;
+    border-radius: 2px;
+    margin-right: 15px;
+    font-weight:600;
+    font-size: 17px;
+}
+.upper-footer h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.lower-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    align-items: center;
+}
+.lower-footer ul{ 
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
+.lower-footer ul li a{
+    text-decoration: none;
+} 

@@ -1,0 +1,53 @@
+ body{
+background-color: #F0F2F5;
+ }
+ .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    
+}
+.parent .logo p{
+    margin: 0;
+    padding:0;
+}
+.parent .form{
+   background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+padding: 20px 20px;
+width: 350px;
+border-radius: 5px;
+}
+form input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+}
+form .submit{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #1877F2;
+    border: none;
+    color: white;
+}
+form {
+    text-align: center;
+}
+form .create{
+    background-color: #36A420;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white; 
+
+}
+form a{
+    margin:10px 0px;
+    text-decoration: none;
+
+}
