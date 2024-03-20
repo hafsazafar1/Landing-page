@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+
+}
+
 .main {
   width: 100%;
   background-image: url(Rectangle31.png);
@@ -95,16 +100,36 @@
 
 }
 
+.feature-div .heading h3 {
+  font-size: 35px;
+}
+
+.feature-div .heading h6 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #636e63;
+  margin-top: 10px;
+}
+
 .first-features-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 25px;
+
+  
 }
 
 
 .first-features-div .features img {
   height: 90px;
   width: 90px;
+}
+.feature-text h6 {
+  font-size: 17px;
+  color: #636e63;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .feature-text ul {
@@ -127,7 +152,7 @@
   align-items: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 20px;
-  width: 270px;
+  width: 400px;
   border-radius: 15px;
 }
 
@@ -157,15 +182,23 @@
 
 .text h3 {
   color: white;
+  font-size: 40px;
 }
 
 .text p {
-  color: #D9D9D9
+  color: #D9D9D9;
+  font-size: 16px;
+
 }
 
 .text button {
   background-color: #8DD3BB;
   padding: 10px;
+  border: 0px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #112211;
 }
 
 .third-section-div .text {
@@ -220,26 +253,29 @@ p {
   align-items: end
 }
 
-.review-1,
-.review-2,
-.review-3,
-p,
-img,
-h4,
-h3,
-button {
-  margin-top: 25px;
+.review-1 img,
+.review-2 img,
+.review-3 img
+ {
+  margin-top: 15px;
+}
+
+
+.footer-parent {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 80px 200px;
+  /* margin: 80px 200px; */
   padding: 20px;
   height: 305px;
   width: 1200px;
   background-color: #a7ddca;
   border-radius: 15px;
+  margin-bottom: -70px;
 }
 
 .footer-heading {
@@ -273,14 +309,32 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 40px;
+  /* margin: 50px 40px;  nooooooooooooooooooooooooooo */
   background-color: #8DD3BB;
-  padding: 20px 40px;
-  height: 400px;
-  width: 1400px;
+  padding: 20px 140px;
+  height: 300px;
+  /* width: 1400px; */
 
 }
 
-.footer-list th li {
+.footer-list h4{
+  margin-bottom: 15px;
+}
+
+.footer-list ul li {
   list-style-type: none;
+}
+
+.footer-list ul {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+
+.social-media-links {
+  display: flex;
+    gap: 15px;
+    margin-top: 10px;
 }
